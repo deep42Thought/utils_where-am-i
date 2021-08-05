@@ -1,0 +1,31 @@
+{
+  "name": "@ydr/utils_where-am-i",
+  "version": "1.0.4",
+  "description": "Determine where the code is running",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "test.js",
+    "jsDoc": " jsDoc . -r --readme README.md -c .jsDoc.json -d !jsDoc"
+  },
+  "repository": {
+    "type": "azure",
+    "url": "https://pkgs.dev.azure.com/yorkdevres/Public/_packaging/public%40Local/npm/registry/"
+  },
+  "keywords": [
+    "JS",
+    "nodeJS",
+    "require",
+    "commonJS",
+    "server",
+    "code",
+    "engine",
+    "where",
+    "environment"
+  ],
+  "author": "Martin Baker <martinwbaker@yorkdevres.co.uk> (http://dev.yorkdevres.co.uk/)",
+  "directories": {
+    "doc": "!jsDoc"
+  },
+  "license": "ISC"
+}

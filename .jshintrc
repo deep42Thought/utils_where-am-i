@@ -1,0 +1,23 @@
+{
+  "esversion": 8,
+  "laxcomma" : true,
+  "laxbreak" : true,
+  "forin" : true,
+  "futurehostile" : true,
+  "globals" : {
+    "$ydr" : true,
+    "latedef" : true
+  },
+  "maxerr" : 10000,
+  "noarg" : true,
+  "strict" : true,
+  "undef" : true,
+  "unused" : true,
+  "eqnull" : true,
+  "evil" : true,
+  "lastsemic" : true,
+
+  "jquery" : true,
+  "node": true
+
+}

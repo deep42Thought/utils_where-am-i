@@ -1,0 +1,36 @@
+{
+	"plugins": ["plugins/markdown"],
+
+	"recurseDepth": 10,
+	"source": {
+		"xxxinclude": ["../core/object_types/index.js"],
+		"exclude": ["node_modules", "!jsDoc"],
+		"includePattern": ".+\\.js(doc|x)?$",
+		"excludePattern": "(^|\\/|\\\\)_"
+	},
+	"sourceType": "module",
+	"tags": {
+		"allowUnknownTags": true,
+		"dictionaries": ["jsdoc",
+			"closure"
+		]
+	},
+	"comment": "see https://github.com/nhn/tui.jsdoc-template",
+	"opts": {
+		"template": "C:/Users/martin/AppData/Roaming/npm/node_modules/tui-jsdoc-template",
+		"tutorials": "tutorials",
+		"package": "./package.json"
+	},
+	"templates": {
+		"cleverLinks": false,
+		"monospaceLinks": false,
+		"name": "YDR",
+		"footerText": "Copyright York Development and Research 1985 onwards - MIT License",
+		"useCollapsibles": true,
+		"logo": {
+			"url": "https://yorkdevres.co.uk/favicon.ico",
+			"width": "50px",
+			"link": "https://yorkdevres.co.uk"
+		}
+	}
+}
